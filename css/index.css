@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.success {
+  padding: .5rem 1rem;
+  background-color: chartreuse;
+  border-radius: 4px;
+}
+
+.error {
+  padding: .5rem 1rem;
+  background-color: crimson;
+  border-radius: 4px;
+}
+
+form {
+  margin-top: 1rem;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  padding: .3rem 0;
+  width: 18rem;
+}
+
+input, textarea {
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: .5rem 1rem;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type='radio'], input[type='checkbox'] {
+  margin-top: .5rem;
+  display: inline;
+  width: initial;
+}
+
+label[for='computer'] label, label[for='gender'] label {
+  display: block;
+}
+
+select {
+  border-radius: 4px;
+  padding: .5rem;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+button {
+  border-radius: 4px;
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+  width: 100%;
+  cursor: pointer;
+}
